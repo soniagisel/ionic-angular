@@ -1,0 +1,24 @@
+{
+  "name": "ionic-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniagisel/ionic-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniagisel/ionic-angular/issues"
+  },
+  "homepage": "https://github.com/soniagisel/ionic-angular#readme",
+  "devDependencies": {
+    "cordova": "^5.4.1",
+    "ionic": "^1.7.11",
+    "ios-sim": "^5.0.4"
+  }
+}
