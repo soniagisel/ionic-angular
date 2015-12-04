@@ -18,7 +18,6 @@
   "homepage": "https://github.com/soniagisel/ionic-angular#readme",
   "devDependencies": {
     "cordova": "^5.4.1",
-    "ionic": "^1.7.11",
-    "ios-sim": "^5.0.4"
+    "ionic": "^1.7.11"
   }
 }
