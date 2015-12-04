@@ -18,6 +18,7 @@
   "homepage": "https://github.com/soniagisel/ionic-angular#readme",
   "devDependencies": {
     "cordova": "^5.4.1",
+    "gulp-sass": "^2.1.0",
     "ionic": "^1.7.11"
   }
 }
