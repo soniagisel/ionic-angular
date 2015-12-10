@@ -20,7 +20,7 @@ app.controller('notesCtrl', function($scope) {
 	$scope.erase = function(note) {
 		var indexOf = $scope.notes.indexOf(note);
 		if (indexOf !== -1) {
-			$scope.todos.splice(indexOf, 1);
+			$scope.notes.splice(indexOf, 1);
 		};
 	};
 
