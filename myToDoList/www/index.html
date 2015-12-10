@@ -23,7 +23,7 @@
   <body ng-app="toDo">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
+      <ion-header-bar class="bar-positive">
         <button class="button button-icon icon ion-navicon"></button>
         <h1 class="title">MY LIST</h1>
       </ion-header-bar>
@@ -35,17 +35,22 @@
 
        <div class="app-container" ng-controller="toDoCtrl">
 
+          <div class="button-bar">
+            <a class="button">To Do</a>
+            <a class="button">Notes</a>
+          </div>
+
           <ul class="add-todo list list-inset">
             <li class="item item-input">
-                <input type="text" class="txt" placeholder="Add New Todo"
-                ng-model="newTodo" ng-keyup="add($event)" >
+                <i class="icon ion-compose placeholder-icon"></i>
+                <input type="text" class="txt" ng-model="newTodo" ng-keyup="add($event)" >
             </li>
          </ul>
 
           <ul class="list list-inset">
             <li class="item" ng-repeat="todo in todos track by $index">
               <span>{{ todo }}</span>
-              <button class="done-btn button button-outline button-balanced" ng-click="done(todo)">Done</button>
+              <button class="done-btn button button-outline button-positive" ng-click="done(todo)">Done</button>
             </li>
          </ul>
        </div>
