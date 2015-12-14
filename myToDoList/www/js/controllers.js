@@ -35,6 +35,10 @@ app.controller('notesCtrl', function($scope) {
 
 app.config(function($routeProvider) {
 	$routeProvider
+	.when('/', {
+		templateUrl : 'tmp/landing.html',
+		controller  : 'landingCtrl'
+	})
 	.when('/todos', {
 		templateUrl : 'tmp/todos.html',
         controller  : 'toDoCtrl'
